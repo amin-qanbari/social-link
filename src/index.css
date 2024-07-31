@@ -2,8 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+input {
+  margin-top: 0 !important;
+}
+
+@font-face {
+  font-family: "iranYekan-bold";
+  src: url("./font/Qs_Iranyekan\ bold.ttf") format("woff2");
+}
+@font-face {
+  font-family: "iranYekan-medium";
+  src: url("./font/Qs_Iranyekan\ medium.ttf") format("woff2");
+}
+@font-face {
+  font-family: "iranYekan-light";
+  src: url("./font/Qs_Iranyekan\ light.ttf") format("woff2");
 }
